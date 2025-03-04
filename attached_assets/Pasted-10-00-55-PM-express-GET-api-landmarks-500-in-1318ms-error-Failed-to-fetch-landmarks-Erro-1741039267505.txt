@@ -1,0 +1,29 @@
+10:00:55 PM [express] GET /api/landmarks 500 in 1318ms :: {"error":"Failed to fetch landmarks"}
+Error fetching landmarks: TypeError: Cannot read properties of undefined (reading 'slice')
+    at <anonymous> (/home/runner/workspace/server/services/wikipedia.ts:69:36)
+    at Array.map (<anonymous>)
+    at fetchLandmarksInBoundingBox (/home/runner/workspace/server/services/wikipedia.ts:65:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:23:30)
+10:00:55 PM [express] GET /api/landmarks 500 in 357ms :: {"error":"Failed to fetch landmarks"}
+Error fetching landmarks: TypeError: Cannot read properties of undefined (reading 'slice')
+    at <anonymous> (/home/runner/workspace/server/services/wikipedia.ts:69:36)
+    at Array.map (<anonymous>)
+    at fetchLandmarksInBoundingBox (/home/runner/workspace/server/services/wikipedia.ts:65:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:23:30)
+10:00:56 PM [express] GET /api/landmarks 500 in 375ms :: {"error":"Failed to fetch landmarks"}
+Error fetching landmarks: TypeError: Cannot read properties of undefined (reading 'slice')
+    at <anonymous> (/home/runner/workspace/server/services/wikipedia.ts:69:36)
+    at Array.map (<anonymous>)
+    at fetchLandmarksInBoundingBox (/home/runner/workspace/server/services/wikipedia.ts:65:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:23:30)
+10:00:57 PM [express] GET /api/landmarks 500 in 3131ms :: {"error":"Failed to fetch landmarks"}
+Error fetching landmarks: TypeError: Cannot read properties of undefined (reading 'slice')
+    at <anonymous> (/home/runner/workspace/server/services/wikipedia.ts:69:36)
+    at Array.map (<anonymous>)
+    at fetchLandmarksInBoundingBox (/home/runner/workspace/server/services/wikipedia.ts:65:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async <anonymous> (/home/runner/workspace/server/routes.ts:23:30)
+10:01:02 PM [express] GET /api/landmarks 500 in 397ms :: {"error":"Failed to fetch landmarks"}
